@@ -1,0 +1,12 @@
+D:\Project_2022_2023\MaterialBoard\StudentMaterialBoard\StudentMaterialBoard\bin\StudentMaterialBoard.dll
+D:\Project_2022_2023\MaterialBoard\StudentMaterialBoard\StudentMaterialBoard\bin\StudentMaterialBoard.pdb
+D:\Project_2022_2023\MaterialBoard\StudentMaterialBoard\StudentMaterialBoard\bin\MySql.Data.dll
+D:\Project_2022_2023\MaterialBoard\StudentMaterialBoard\StudentMaterialBoard\obj\Debug\StudentMaterialBoard.dll
+D:\Project_2022_2023\MaterialBoard\StudentMaterialBoard\StudentMaterialBoard\obj\Debug\StudentMaterialBoard.pdb
+D:\Project_2022_2023\MaterialBoard\StudentMaterialBoard\StudentMaterialBoard\obj\Debug\StudentMaterialBoard.csprojResolveAssemblyReference.cache
+E:\FinalMaterialBoard\StudentMaterialBoard\StudentMaterialBoard\bin\StudentMaterialBoard.dll
+E:\FinalMaterialBoard\StudentMaterialBoard\StudentMaterialBoard\bin\StudentMaterialBoard.pdb
+E:\FinalMaterialBoard\StudentMaterialBoard\StudentMaterialBoard\bin\MySql.Data.dll
+E:\FinalMaterialBoard\StudentMaterialBoard\StudentMaterialBoard\obj\Debug\StudentMaterialBoard.csprojResolveAssemblyReference.cache
+E:\FinalMaterialBoard\StudentMaterialBoard\StudentMaterialBoard\obj\Debug\StudentMaterialBoard.dll
+E:\FinalMaterialBoard\StudentMaterialBoard\StudentMaterialBoard\obj\Debug\StudentMaterialBoard.pdb

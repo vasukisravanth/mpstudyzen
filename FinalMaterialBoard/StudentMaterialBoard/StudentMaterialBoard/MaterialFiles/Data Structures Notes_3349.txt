@@ -1,0 +1,101 @@
+Material Board
+
+Actor
+
+1.Admin
+2.Teacher/Lecture
+3.Student
+
+Admin
+-Login-Each Department-Admin-Default Dept- default Id,Password(Each Dept Admin have different login details)
+-Registration Request-Lecture-Accept/Deny
+-Accept lecture email notification for OTP-(password) to respective emailId
+ Generate gmail account & send mail to lecture
+-Add Subject based on sem - particular department
+i.e.,sem1,2,3,4,5,6,7,8,placment
+add coding,techinal round
+-View Uploaded material--option to delete(if unwanted material uploaded)
+
+Lecture
+--Registration
+Email:Suhasini@nie.ac.in
+Name:Suhasini
+Department:Select Dept(CS,IS) based dept request send to respective dept admin
+
+--Once Dept admin accept & get email notify with password
+Lecture can login to application
+UserName:Email:Suhasini@nie.ac.in
+Password:Email Password
+
+--Change Password
+--Lecture Home Page
+--Upload materials--based on sem & subject(image file,pdf,doc file)
+--Based on material - discussion forum to post queries-i.e., questions
+reply can be text format,image,pdf,doc file
+--Based on material-rating out of 5 - lecture/student can be rated to material
+--Elevated Question-based on material-24 hour-no one reply
+any lecture respective dept able to answer -question
+
+Material Name
+Question?
+discussion panel-open
+mark as done-after answer - delete from elevated quetion panel
+
+--Most view material-top 3 -display
+Material Name
+
+--other Question--general question
+discussion forum
+to post queries-i.e., questions
+reply can be text
+
+--LeaderBoard-
+USN,Student Name,Score(Total Upload material by individual Student*10+Total number of reply to material by individual student*2)each dept
+Display Top 5 Student
+
+Student
+--Registration
+Input EmailId:USN@nie.ac.in
+Student Name:StudentName-Kruthan
+Enter USN:USN
+Click on Register
+Send OTP/Password to Respective EmailId
+
+--Login
+Enter EmailId:USN@nie.ac.in
+Password:Password to Respective EmailId verify
+
+Home Page
+--Change Password
+
+Display all dept
+select dept - sem 1,2,3,4,5,6,7,8,placment
+--Upload materials--based on sem & subject(image file,pdf,doc file)
+--Based on material - discussion forum to post queries-i.e., questions
+reply can be text format,image,pdf,doc file
+--Each material download & queries View number of count should be track
+--Based on material-rating out of 5 - lecture/student can be rated to material
+i.e. each material need an rating link -user can rate material out of 5
+--Based on material report to spam - 5 unique click - material should
+automatically delete
+i.e. each material need an spam link -5 unique user click
+material should automatically delete
+
+--other Question--general question
+discussion forum
+to post queries-i.e., questions
+reply can be text 
+
+--LeaderBoard-
+USN,Student Name,Score(Total Upload material by individual Student*10+Total number of reply to material by individual student*2) each dept
+Display Top 5 Student
+
+
+
+
+
+ 
+
+
+
+

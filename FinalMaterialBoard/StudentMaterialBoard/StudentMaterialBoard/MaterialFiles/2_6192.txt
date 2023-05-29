@@ -1,0 +1,41 @@
+.Net Technology
+
+Basic C# Programs(console Applications)
+  -String Handling
+  -Arrays
+  -Collections(ArrayList)
+  -File Handling
+  -Exceptions Handling
+  -OOPS
+  -Generic class
+ASP.Net
+ASP.Net Life cycle
+Controls/Components/Tools
+Master Page concept
+Multiview Concept
+Validation
+ADO.Net
+basic information SQL
+2-tier
+3-tier-Store procedure
+Database application Insert,Update,Delete & select
+Databinding(Dynamic table,Gridview,repeater,Datalist)
+Chart
+webservice
+XML
+SMTP Email
+WebHost
+Ajax Concept-Basic Information
+MVC-Basic Information
+MVC Introduction
+Routing
+ViewBag,ViewData & TempData
+MVC-CRUD operation(model based)
+MVC Action Method Return Types
+MVC Entity insert operation
+MVC dropdownlist bind & select
+MVC Validation & MVC partial View
+Linq-Basic Information
+
+
+  

@@ -1,0 +1,356 @@
+Bootstrap
+
+What is Bootstrap?
+
+Quickly design and customize responsive mobile-first sites with bootstrap, the most popular front-end open source toolkit,responsive grid system and powerful javascript plugins.
+
+It's also a front-end development framework that enables developers & designers to quickly build fully responsive websites.
+
+Bootstrap is completely free to use in personal and commercial projects
+
+Bootstrap saves you from writing lots of css code
+
+Why Learn Bootstrap?
+
+Has a set of components,utilities and features which allows us to build application quickly
+
+Simple and Easy to learn
+
+Powers a lot of worlds top websites(Top Company's using Bootstrap for Project)
+
+Plays well with any framework of your choice,custom code,Angular or React etc
+
+Bootstrap saves you from writing lots of css code
+
+What's New in V5?
+
+Major re-write of the entire framwork
+Brand new look and feel
+Brand new logo
+New Typography
+No JQuery Required anymore
+New CSS Custom Properties
+Dropping support for Internet Explore
+New Themes Colors
+Enhanced Grid
+-Multiple changes including addition of xxl 
+
+Simple Example:
+Containers are used to pad the content inside of them, and there are two container classes available: The .container class provides a responsive fixed width container. The .container-fluid class provides a full width container, spanning the entire width of the viewport.
+
+.container has one fixed width for each screen size in bootstrap (xs,sm,md,lg); .container-fluid expands to fill the available width.
+
+Example 1:
+
+<div class="container">
+        <h1>Demo Heading</h1>
+        <h2>Demo Sub-Heading</h2>
+        <p>Build fast, responsive sites with Bootstrap
+            Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins.Quickly get a project started with any of our examples ranging from using parts of the framework to custom components and layouts.</p>
+    </div>
+    <div class="container-fluid">
+        <h1>Demo Heading</h1>
+        <h2>Demo Sub-Heading</h2>
+        <p>Build fast, responsive sites with Bootstrap
+            Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins.Quickly get a project started with any of our examples ranging from using parts of the framework to custom components and layouts.</p>
+    </div>
+
+-----------------------------------------------------------------------------
+Bootstrap Colors & Typography
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--Display Headings-->
+    <h1 class="display-1">Display 1 heading</h1>
+    <h1 class="display-2">Display 2 heading</h1>
+    <h1 class="display-6">Display 6 heading</h1>
+    <p class="dispaly-1">P Tag with Display-1 Class</p>
+<!--Lead Text & Alignment-->
+<p>Normal Paragraph Content</p>
+<p class="lead">Lead Paragraph Content</p>
+<p class="text-center">Text Center</p>
+<p class="text-end">Text-Right</p>
+<p class="text-start">Text-Left</p>
+
+<!--Text Decoration & Font Weight-->
+<p class="text-decoration-underline">Text Decoration Underline</p>
+<p class="text-decoration-line-through">Text Decoration Line-through</p>
+<p class="fw-bold">The Paragraph Bold Text.</p>
+<small>The Small Text</small>
+
+<!--Text Colors -->
+<p class="text-primary">Theme primary color</p>
+<p class="text-secondary">Theme secondary color</p>
+<p class="text-info">Theme info color</p>
+<p class="text-warning">Theme warning color</p>
+<p class="text-success">Theme success color</p>
+<p class="text-muted">Theme Mute color</p>
+<p class="text-danger">Theme danger color</p>
+
+<!--bg colors-->
+<p class="text-white bg-primary">White Text on Primary bg</p>
+<p class="text-white bg-secondary">White text on secondary</p>
+<p class="text-light bg-danger">White text on danger bg</p>
+
+</body>
+</html>
+
+Bootstrap Buttons
+
+Add a new button
+
+---Classes
+.btn
+.btn-default
+.btn-primary
+.btn-success
+.btn-info
+.btn-warning
+.btn-danger
+.btn-link
+
+---sizes
+.btn-lg
+.btn-md
+.btn-sm
+.btn-xs
+
+-Active Buttons
+-Disabled Buttons
+-Block Level Button 
+
+--Different ways:
+
+<a> ,<button> <input>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--Basic buttons-->
+    <h2>Buttons</h2>
+
+    <button class="btn btn-primary">Primary Button</button>
+    <button class="btn btn-secondary">Secondary Button</button>
+
+    <!--Anchor Tags as buttons-->
+    <h2>Links as buttons</h2>
+     <a href="#" class="btn btn-info">Info Anchor Tag</a>
+     <a href="#" class="btn btn-success">Success Anchor Tag</a>
+    
+     <!--Button Sizes-->
+     <h2>Button Sizes</h2>
+
+     <button class="btn btn-lg btn-danger">Large Danger button</button>
+     <button class="btn btn-sm btn-warning">Small Warning Button</button>
+     <br>
+     <br>
+     <!--Outlined styles-->
+     <button class="btn btn-outline-primary">Outline Primary button</button>
+     <button class="btn btn-outline-warning btn-lg">Large Outline Warning Button</button>
+    
+     <br>
+     <br>
+     <div class="btn-group">
+        <a href="#" class="btn btn-primary">Button1</a>
+        <a href="#" class="btn btn-primary">Button1</a>
+        <a href="#" class="btn btn-primary">Button1</a>
+     </div>  
+     
+     <br>
+     <br>
+     <a href="#" class="btn btn-primary">Button1</a>
+        <a href="#" class="btn btn-secondary">Button1</a>
+        <a href="#" class="btn btn-success">Button1</a>
+        <a href="#" class="btn btn-danger">Button1</a>
+        <a href="#" class="btn btn-warning">Button1</a>
+        <a href="#" class="btn btn-info">Button1</a>
+        <a href="#" class="btn btn-light">Button1</a>
+        <a href="#" class="btn btn-dark">Button1</a>
+        <button class="btn btn-link">button1</button>
+</html>
+----------------------------------------------------------------------------------------
+Spacing
+Bootstrap includes a wide range of shorthand responsive margin, padding, and gap utility classes to modify an element’s appearance.
+
+Margin and padding 
+Assign responsive-friendly margin or padding values to an element or a subset of its sides with shorthand classes. Includes support for individual properties, all properties, and vertical and horizontal properties.
+
+The classes are named using the format {property}{sides}-{size} for xs and {property}{sides}-{breakpoint}-{size} for sm, md, lg, xl, and xxl.
+
+Where property is one of:
+
+m - for classes that set margin
+p - for classes that set padding
+Where sides is one of:
+
+t - for classes that set margin-top or padding-top
+b - for classes that set margin-bottom or padding-bottom
+s - (start) for classes that set margin-left or padding-left in LTR, margin-right or padding-right in RTL
+e - (end) for classes that set margin-right or padding-right in LTR, margin-left or padding-left in RTL
+x - for classes that set both *-left and *-right
+y - for classes that set both *-top and *-bottom
+blank - for classes that set a margin or padding on all 4 sides of the element
+Where size is one of:
+
+0 - for classes that eliminate the margin or padding by setting it to 0
+1 - (by default) for classes that set the margin or padding to $spacer * .25
+2 - (by default) for classes that set the margin or padding to $spacer * .5
+3 - (by default) for classes that set the margin or padding to $spacer
+4 - (by default) for classes that set the margin or padding to $spacer * 1.5
+5 - (by default) for classes that set the margin or padding to $spacer * 3
+auto - for classes that set the margin to auto
+---------------------------------------------------------------------------------------------
+Bootstrap
+Shadows
+Add or remove shadows to elements with box-shadow utilities.
+
+
+----------------------------------------------------------------------------------------------
+Text wrapping and overflow 
+Wrap text with a .text-wrap class
+
+Prevent text from wrapping with a .text-nowrap class.
+
+Text transform 
+Transform text in components with text capitalization classes.
+
+Note how .text-capitalize only changes the first letter of each word, leaving the case of any other letters unaffected.
+
+Font size 
+Quickly change the font-size of text. While our heading classes (e.g., .h1–.h6) apply font-size, font-weight, and line-height, these utilities only apply font-size. Sizing for these utilities matches HTML’s heading elements, so as the number increases, their size decreases.
+
+Font weight and italics 
+Quickly change the font-weight or font-style of text with these utilities. font-style utilities are abbreviated as .fst-* and font-weight utilities are abbreviated as .fw-*.
+
+Line height 
+Change the line height with .lh-* utilities.
+
+Text decoration 
+Decorate text in components with text decoration classes.
+
+Vertical alignment
+Easily change the vertical alignment of inline, inline-block, inline-table, and table cell elements.
+
+Choose from .align-baseline, .align-top, .align-middle, .align-bottom, .align-text-bottom, and .align-text-top as needed.
+----------------------------------------------------------------------------------------------------------------------------------
+Bootstrap 4 Grids
+
+-12 columns on a web page is the responsive grid
+-If you want to create group of columns,then use the rows class.
+
+Grid options 
+Bootstrap’s grid system can adapt across all six default breakpoints, and any breakpoints you customize. The six default grid tiers are as follows:
+
+Extra small (xs)
+Small (sm)
+Medium (md)
+Large (lg)
+Extra large (xl)
+Extra extra large (xxl)
+
+.col- :
+Device:<576px i.e. Extra Small Devices
+Example:<div class="col-1">one</div>
+
+.col-sm- :
+Device:>=576px i.e. Small Devices
+Example:<div class="col-sm-1">one</div>
+
+.col-md- :
+Device:>=768px i.e. Medium Devices like iPad
+Example:<div class="col-md-1">one</div>
+
+.col-lg- :
+Device:>=992px  & <=1200i.e. Large Devices
+Example:<div class="col-lg-1">one</div>
+
+.col-xl- :
+Device:>=1200px i.e. Extra Large Devices
+Example:<div class="col-xl-1">one</div>
+
+.col-xxl- :
+Device:>=1400px i.e. Extra extra Large Devices
+Example:<div class="col-xxl-1">one</div>
+
+Example:For four equal columns,use four .col-sm-3
+
+Example:
+<div class="container">
+       <h2>Grids in Bootstrap - Extra Small Device</h2>
+       <div class="row">
+        <div class="col-6 bg-info">One</div>
+        <div class="col-6 bg-danger">Two</div>
+       </div>
+
+       <h2>Grids in Bootstrap - Extra Large Device</h2>
+       <div class="row">
+        <div class="col-xl-3 bg-info">One</div>
+        <div class="col-xl-9 bg-danger">Two</div>
+       </div>
+
+       <h2>Grids in Bootstrap</h2>
+       <div class="row">
+        <div class="col-lg-1 col-md-1 col-sm-4 bg-info">One</div>
+        <div class="col-lg-1 col-md-1 col-sm-4 bg-warning">Two</div>
+        <div class="col-lg-1 col-md-1 col-sm-4 bg-danger">Three</div>
+        <div class="col-lg-1 col-md-1 col-sm-4 bg-secondary">Four</div>
+        <div class="col-lg-1 col-md-1 col-sm-4 bg-warning">Five</div>
+        <div class="col-lg-1 col-md-1 col-sm-4 bg-primary">Six</div>
+        <div class="col-lg-1 col-md-1 col-sm-4 bg-danger">Seven</div>
+        <div class="col-lg-1 col-md-1 col-sm-4 bg-info">Eight</div>
+        <div class="col-lg-1 col-md-1 col-sm-4 bg-primary">Nine</div>
+        <div class="col-lg-1 col-md-1 col-sm-4 bg-secondary">Ten</div>
+        <div class="col-lg-1 col-md-1 col-sm-4 bg-info">Eleven</div>
+        <div class="col-lg-1 col-md-1 col-sm-4 bg-primary">Twelve</div>
+       </div>
+    </div>
+
+------------------------------------------------------------------------------------------------
+Dropdowns
+Toggle contextual overlays for displaying lists of links and more with the Bootstrap dropdown plugin
+
+Navbar
+Documentation and examples for Bootstrap’s powerful, responsive navigation header, the navbar. Includes support for branding, navigation, and more, including support for our collapse plugin.
+
+Navs and tabs
+Documentation and examples for how to use Bootstrap’s included navigation components.
+
+Tabs 
+Takes the basic nav from above and adds the .nav-tabs class to generate a tabbed interface. Use them to create tabbable regions with our tab JavaScript plugin.
+
+
+Bootstrap Responsive Table
+
+-table-responsive:create a responsive table
+<992px - it will add a scrollbar
+
+.table-responsive-sm for < 576px
+.table-responsive-md for < 768px
+.table-responsive-lg for < 992px
+.table-responsive-xl for < 1200px
+
+
+
+
+
+
+
+  
+

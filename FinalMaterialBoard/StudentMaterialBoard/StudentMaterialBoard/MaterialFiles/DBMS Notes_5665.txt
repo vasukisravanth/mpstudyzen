@@ -1,0 +1,382 @@
+Software Testing
+
+Manual Testing
+Automation Testing
+
+
+Manual Testing
+
+Software Testing?
+
+What is Software?
+
+A software is a collectionn of computer programs that helps us to perform a task.
+
+Type Software
+ -system software
+ -Programming Software
+ -Application Software--Web Applications,Desktop Application,Mobile Application
+amazon online shopping
+
+Program?
+Instruction written to the computer coding to run application
+
+web application:FB,LI,amazon etc
+
+desktop:Notepd,mspaint,claculator
+
+Tesing is done on application software
+What is an software Testing?
+
+A--> mobile purchase sm31
+check options working--use mobile phone & apps
+
+A--MP sm31-18000
+
+hangout--
+
+testing--lack of testing not done properly
+
+m32 product
+
+Banking Application
+
+Net banking
+
+x--bank y-company -specify x bank req
+
+login a/c 20000
+amount z transfer 15000/20000
+
+
+balance Rs.5000
+
+s/w testing?
+--S/w Testing is an part of s/w develpment Process.
+--Test the s/w ie., working according to clent Req
+--s/w testing is an activity to detect & identify the defects in the s/w
+--The objective of testing is to release quality product to the client
+
+S/w Quality?--Parameter to evaluate S/w Quality
+
+--Bug free
+--On Time Delivered
+--Within budget
+--Meet requirements/Expectations
+--Maintainable
+
+
+Project Vs Products?
+
+Project:If S/w application is developed for specific customer based on the requirement then
+it is called Project
+Ex:Banking Application,online shopping website etc
+
+
+Product:If s/w application is developed for multiple customers based on market
+requirement then it is called Product
+
+Ex:Google Drive,Google Map
+Microsoft product-MS Word,MS Excel etc
+
+Why do we need Testing?
+--bug free deliver application
+--Quality of s/w
+
+Error,Bug & Failure?
+
+Error:Developer write code & if any mistake in code,then it is Error(Developer End).
+
+Bug/Defect:Tester test the application,if actual result does not match with
+Expected Result,then it is called Bug/Defect (Tester End).
+
+Failuer:Develop s/w & tested everything work fine.Delivered to customer,install s/w
+in customer environment & start using the s/w.After few days,something not working
+i.e., some transaction fail,end user identify error it is called
+failure(Client End).
+
+Levels of Testing
+
+1.Unit Testing
+-A unit is a single component or module of a s/w.
+-Unit Testing conduct on a single program or single module.
+-Unit Testing is white box testing technique.
+-Unit testing is conducted by the developers.
+
+2.Integration Testing
+-Integration Testing is performed b/w 2 or more modules
+-Integration testing focus on checking data communication b/w multiple modules
+-Integration Testing is white box testing technique
+
+Ex:Gmail
+
+Login-->Inbox--select mail(check)--click on Delete-->Tash/Delete mail
+
+login--compose mail---send mail--check in sent item(verify mail send successfully)
+
+3.System Testing
+-Testing over all functionality of the application with respective
+client requirements.
+-It is a black box testing technique.
+-This testing is conducted by testing team/tester's
+-Before conducting System Testing,we should know the Customer Requirement
+
+User Interface Testing(GUI)
+Functional Testing
+Non-Functional Testing
+Usability Testing
+
+What is GUI Testing
+-GUI Testing is a process of testing the user interface of an application.
+-GUI Testing includes all elements such as menu,checkbox,textbox,buttons,colors,
+fonts,font size,icons,content & images
+
+GUI Testing checklist
+-Testing the size,position,width,height of the element.
+-Testing of the Error message that are getting displayed.
+-Testing the different section of the screen.
+-Testing of the font whether it is readable or not
+-Testing of the screen in different resolution with the help of zooming in &
+zooming out.
+-Testing the alignment of the text & other elements like icons,buttons etc
+are in proper place or not.
+-Testing the color of the fonts.
+-Testing whetherthe image has good clarity or not.
+-Testing the alignment of the image
+-Testing of the spelling.
+-The user must not get frustrated while using the system interface.
+-Testing whether the interface is attractive or not.
+-Testing of the scrollbar according the size of the page if any.
+-Tesing of the disabled fields if any.
+-Testing UI Element properly align with respective height & width in client requirement.
+
+Usability Testing
+-Check how easily the end user are able to understand & operate the application
+is called usability testing.
+
+user manual document
+should be simple english i.e., non-technical person should understand the document.
+
+Functional Testing
+
+Functionality is nothing but behavior of application
+How your feature should work
+
+Functional Testing
+--Object Properties Testing
+--Database Testing
+--Error Handling
+--Calculations/Manipulation Testing
+--Link Existence & Link Execution
+--Cookies & session
+
+Object Properties Testing
+--Check the properties of object Present on the application
+
+Database Testing/Backend Testing
+
+--Table level validation{column Type,data type
+varchar(20),
+
+grey box testing
+--combination of white box & black box testing
+
+
+normalization
+functions
+store procedure
+view
+triggers
+
+Error Handling Testing
+Testing on Error Message
+Ex:Login form 
+Invalid action,invalid operation on UI
+
+Invalid User Id,Password input 
+error message
+
+Application should display messages for incorrect operation to the user.
+Error message should be reable
+user understanable/simple language.
+
+Calculation/Manipulation Testing
+
+Ex:Bank transaction
+proper working or not
+
+Add Number
+Num 1 -2
+Num 2-5
+result-7
+
+-2,5
+0
+-2,-5
+bigger no
+smaller no
+alpha
+
+LinkExistence & Link Execution
+
+where exactly the link are placed-- link existence
+
+link are navigating to proper page or not -- link execution
+
+three type of link
+
+--Internal link
+--same page with different section
+
+-External link
+-Navigate to another page
+
+Broken Link
+-Link will be their,but doesn't have any action,not navigate to any page
+
+
+Cookies & Sessions
+
+-->Only for Web Application
+
+
+cookies
+
+Ex:Browser Page(data)<--- Data(server side)
+   Save-User
+    Data
+client side(Data) Remember Password/EmailId
+
+Id&Password-->Login to application -->Browser popup--do you want remember
+Id,Password--Yes(Save)-without click logout,close page.Browser Remember Data
+
+-Cookies are file/temp file created by the browser while browsing data through
+internet.
+-Testing whether browser saving the information in cookies or not.
+
+Session
+
+--Create on server side
+
+Ex:Gmail/Banking Application
+
+--Login
+--Without any Activity leave few minutes.
+--Certain minutes after do some action,again it will ask for login
+input username & password(session expire)--due to security process.
+
+In application an Timer will count the application is active or not(time slot)
+-for security purpose.
+
+--Session are time slots created by the server.Session will be expired after some time(If the application is idle for some time).
+
+Non-functional Testing
+
+-->Performance Testing
+   ->Load Testing
+   ->Stress Testing
+   ->Volume Testing
+-->Security Testing
+-->Recovery Testing
+-->Compatibility Testing
+-->Configuration Testing
+-->Installation Testing
+-->Sanitation/Garbage Testing
+
+
+End-To-End Testing
+
+Testing the overall functionlities of the system including the data integration among all the modules is called End-To-End testing.
+
+Example 1:
+login->Add customer-->Edit customer--->Logout
+						 -->Delete Customer
+
+1.Login
+2.Add New Customer
+3.Edit Customer
+4.Delete Customer
+5.Logout
+
+In single flow/complete functionality start to end testing in single flow.
+
+
+Example 2:
+Shopping Application
+
+1.Visit Shopping APplication
+2.Login
+3.Search Product
+4.Add to cart
+5.Place order
+6.Make payment--Get bank Notification message
+7.Get Order Product Notification - delivery date
+8.Logout
+
+SDLC--Entire s/w development Process
+STLC-Software testing Life cycle.
+--only s/w testing process
+--STLC is a part of SDLC
+
+Difference Phase in STLC
+1.Requirement Analysis.
+2.Test Planning
+3.Test Design
+4.Test Execution.
+5.Defect Reporting/Bug Reporting
+6.Test Closure.
+
+A test plan is a detailed document that describes the test strategy,schedules,estimation,deliverables & resources required to perform testing for a s/w application.
+The Test plan helps us determine the effort needed to validate the quality of the
+application under test.
+
+Test Designing
+
+Usecase,Test Scenario & Test Case
+
+Usecase:Function requirement part i.e., describes the requirements
+
+Usecase contains 3 items
+--Actor
+--Action/flow
+--Outcome
+
+Actor  Action  outcome
+User-->Login-->Home Page
+       Invalid-->Error message
+
+Test Scenario:Possible area to be tested(What to test)
+
+TestCase:
+-How to test
+-Describes test steps,expected result & actual result.
+
+Usecase-->Test Scenario-->Test Case
+
+
+Usecase vs Test case
+
+--Usecase:Describes functional requirements prepared by Business analyst(BA)
+--Testcase:Describes Test steps prepared by Test engineers.
+
+TestCase vs Test Scenarios
+
+Test case consist of set of input values execution precondition,excepted result &
+executed post condition,developed to cover certain test condition,while test scenario is nothing but test procedure.
+
+Test case are derived(or written) from test scenario.The scenario are derived from use case.
+
+In short Test scenario is "what to be tested" & test case is "How to be Tested".
+
+Example:
+Use case:Test Login Form Functionality
+Test Scenario:Checking the functionality of Login Button
+TC1:Click the button without entering username & password.
+TC2:Click the button only entering Username.
+TC3:Click the button while entering wrong Username & Wrong Password.
+
+Test Case:Is a set of actions executed to verify. a particular feature or functionality of the application.
+
+
+
+
